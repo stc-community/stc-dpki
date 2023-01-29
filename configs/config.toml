@@ -26,7 +26,7 @@ MaxReqLoggerLength = 1024
 # 合约地址
 Address = ""
 # RPC 地址
-RpcUrl = "https://goerli.infura.io/v3/81fec17192394537a0408c47ef5ec0b8"
+RpcUrl = "https://wallaby.node.glif.io/rpc/v0"
 # 账户私钥-用于签名请求
 PrivateKey = ""
 
