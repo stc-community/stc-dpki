@@ -11,7 +11,7 @@ import (
 
 	"github.com/koding/multiconfig"
 
-	"github.com/stc-community/stc-fvm-dpki/pkg/util/json"
+	"github.com/stc-community/stc-dpki/pkg/util/json"
 )
 
 var (

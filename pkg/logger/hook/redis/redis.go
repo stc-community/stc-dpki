@@ -3,7 +3,7 @@ package redis
 import (
 	"fmt"
 
-	"github.com/stc-community/stc-fvm-dpki/pkg/util/json"
+	"github.com/stc-community/stc-dpki/pkg/util/json"
 
 	"github.com/go-redis/redis"
 	"github.com/sirupsen/logrus"

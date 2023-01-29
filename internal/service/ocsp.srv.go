@@ -4,11 +4,11 @@ import (
 	"context"
 	"encoding/hex"
 
-	"github.com/stc-community/stc-fvm-dpki/internal/dao"
-	"github.com/stc-community/stc-fvm-dpki/internal/initx"
-	"github.com/stc-community/stc-fvm-dpki/pkg/errors"
-	"github.com/stc-community/stc-fvm-dpki/pkg/logger"
-	"github.com/stc-community/stc-fvm-dpki/pkg/memorycacher"
+	"github.com/stc-community/stc-dpki/internal/dao"
+	"github.com/stc-community/stc-dpki/internal/initx"
+	"github.com/stc-community/stc-dpki/pkg/errors"
+	"github.com/stc-community/stc-dpki/pkg/logger"
+	"github.com/stc-community/stc-dpki/pkg/memorycacher"
 	"net/http"
 
 	"github.com/google/wire"

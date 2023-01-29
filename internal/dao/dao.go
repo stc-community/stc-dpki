@@ -1,7 +1,7 @@
 package dao
 
 import (
-	"github.com/stc-community/stc-fvm-dpki/internal/dao/certificate"
+	"github.com/stc-community/stc-dpki/internal/dao/certificate"
 
 	"github.com/google/wire"
 ) // end

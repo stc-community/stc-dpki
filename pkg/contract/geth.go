@@ -7,7 +7,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/stc-community/stc-fvm-dpki/pkg/errors"
+	"github.com/stc-community/stc-dpki/pkg/errors"
 )
 
 type Config struct {

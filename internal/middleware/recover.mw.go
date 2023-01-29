@@ -7,9 +7,9 @@ import (
 	"runtime"
 
 	"github.com/gin-gonic/gin"
-	"github.com/stc-community/stc-fvm-dpki/internal/ginx"
-	"github.com/stc-community/stc-fvm-dpki/pkg/errors"
-	"github.com/stc-community/stc-fvm-dpki/pkg/logger"
+	"github.com/stc-community/stc-dpki/internal/ginx"
+	"github.com/stc-community/stc-dpki/pkg/errors"
+	"github.com/stc-community/stc-dpki/pkg/logger"
 )
 
 var (

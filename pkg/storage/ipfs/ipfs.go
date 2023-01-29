@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/stc-community/stc-fvm-dpki/internal/config"
-	"github.com/stc-community/stc-fvm-dpki/pkg/errors"
+	"github.com/stc-community/stc-dpki/internal/config"
+	"github.com/stc-community/stc-dpki/pkg/errors"
 	shell "github.com/ipfs/go-ipfs-api"
 )
 

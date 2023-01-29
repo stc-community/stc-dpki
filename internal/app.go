@@ -10,10 +10,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/stc-community/stc-fvm-dpki/internal/config"
-	"github.com/stc-community/stc-fvm-dpki/internal/initx"
-	"github.com/stc-community/stc-fvm-dpki/pkg/errors"
-	"github.com/stc-community/stc-fvm-dpki/pkg/logger"
+	"github.com/stc-community/stc-dpki/internal/config"
+	"github.com/stc-community/stc-dpki/internal/initx"
+	"github.com/stc-community/stc-dpki/pkg/errors"
+	"github.com/stc-community/stc-dpki/pkg/logger"
 )
 
 const AppTlsType = "tls"

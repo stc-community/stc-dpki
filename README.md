@@ -3,7 +3,7 @@
     width="30%" border="0" alt="CA">
 </p>
 
-# FVM-DPKI
+# STC-DPKI
 A cross-domain identity authentication architecture of DPKI system based on blockchain structure, which returns the control of online identities to their entities, uses smart contracts to manage the life cycle of digital certificates, and uses user-generated certificates to reduce the cumbersome operation and management burden of traditional CA certificate management, so as to achieve lightweight authentication architecture and avoid complex organization and management, Thus, more convenient and efficient cross-domain information sharing can be achieved. By doing so, DPKI has solved many usability and security challenges that have plagued traditional public key infrastructure.
 
 DPKI has advantages at every stage of the PKI life cycle. It makes the autonomous control of online identity possible, and provides a simple and more powerful SSL certificate. In use, it can help entities finally store encrypted data by degrading public key management to security decentralization.
@@ -49,4 +49,4 @@ $ bin/dpki tls -c configs/config.toml
 ## DPKI SDK Demo
 Support decentralized certificate application, certificate online status query, certificate chain verification
 
-[Demo](https://github.com/stc-community/stc-fvm-dpki-casdk/tree/main/examples)
+[Demo](https://github.com/stc-community/stc-dpki-casdk/tree/main/examples)

@@ -5,11 +5,11 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/google/wire"
-	"github.com/stc-community/stc-fvm-dpki/internal/schema"
-	"github.com/stc-community/stc-fvm-dpki/pkg/contract"
-	"github.com/stc-community/stc-fvm-dpki/pkg/errors"
-	"github.com/stc-community/stc-fvm-dpki/pkg/storage"
-	"github.com/stc-community/stc-fvm-dpki/pkg/util/json"
+	"github.com/stc-community/stc-dpki/internal/schema"
+	"github.com/stc-community/stc-dpki/pkg/contract"
+	"github.com/stc-community/stc-dpki/pkg/errors"
+	"github.com/stc-community/stc-dpki/pkg/storage"
+	"github.com/stc-community/stc-dpki/pkg/util/json"
 )
 
 var CertificateSet = wire.NewSet(wire.Struct(new(CertificateRepo), "DB", "Eth"))

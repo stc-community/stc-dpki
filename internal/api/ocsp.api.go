@@ -3,7 +3,7 @@ package api
 import (
 	"net/http"
 
-	"github.com/stc-community/stc-fvm-dpki/internal/service"
+	"github.com/stc-community/stc-dpki/internal/service"
 	"github.com/google/wire"
 	stdocsp "golang.org/x/crypto/ocsp"
 )

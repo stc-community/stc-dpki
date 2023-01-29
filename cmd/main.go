@@ -2,11 +2,11 @@ package main
 
 import (
 	"context"
-	"github.com/stc-community/stc-fvm-dpki/pkg/contract"
+	"github.com/stc-community/stc-dpki/pkg/contract"
 	"os"
 
-	"github.com/stc-community/stc-fvm-dpki/internal"
-	"github.com/stc-community/stc-fvm-dpki/pkg/logger"
+	"github.com/stc-community/stc-dpki/internal"
+	"github.com/stc-community/stc-dpki/pkg/logger"
 	"github.com/urfave/cli/v2"
 )
 

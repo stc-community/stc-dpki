@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/stc-community/stc-fvm-dpki/internal/ginx"
-	"github.com/stc-community/stc-fvm-dpki/internal/service"
+	"github.com/stc-community/stc-dpki/internal/ginx"
+	"github.com/stc-community/stc-dpki/internal/service"
 	"github.com/gin-gonic/gin"
 	"github.com/google/wire"
 )
