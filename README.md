@@ -8,7 +8,7 @@ A cross-domain identity authentication architecture of DPKI system based on bloc
 
 DPKI has advantages at every stage of the PKI life cycle. It makes the autonomous control of online identity possible, and provides a simple and more powerful SSL certificate. In use, it can help entities finally store encrypted data by degrading public key management to security decentralization.
 
-# 系统架构
+# System rchitecture 
 In this DPKI authentication architecture, the system architecture is composed of six main entities: users, issuers, verifiers, interstellar file system (IPFS) nodes, blockchain networks and service providers. The system takes multiple issuer nodes as the main blockchain nodes, forming a decentralized network.
 ![image](https://user-images.githubusercontent.com/52234994/215308087-de3a4043-6269-4517-a5aa-7847c10e05d9.png)
 
