@@ -1,0 +1,88 @@
+# 运行模式(debug:调试,test:测试,release:正式)
+RunMode = "debug"
+
+# 启动时是否打印配置参数
+PrintConfig = true
+
+# TLS 证书服务
+[TLS]
+# 监听地址
+Host = "0.0.0.0"
+# 监听端口
+Port = 8081
+# 证书路径，为空则自签发证书 -- 此证书两个作用：1、App服务证书；2、作为父级证书，用于签发证书
+CertFile = ""
+# 证书密钥，为空则自签发证书 -- 此证书两个作用：1、App服务证书；2、作为父级证书，用于签发证书
+KeyFile = ""
+# http优雅关闭等待超时时长(单位秒)
+ShutdownTimeout = 30
+# 允许的最大内容长度(64M)
+MaxContentLength = 67108864
+# 允许输出的最大请求日志长度
+MaxReqLoggerLength = 1024
+
+# 合约配置
+[Contract]
+# 合约地址
+Address = ""
+# RPC 地址
+RpcUrl = "https://goerli.infura.io/v3/81fec17192394537a0408c47ef5ec0b8"
+# 账户私钥-用于签名请求
+PrivateKey = ""
+
+# Cfssl 配置信息
+[Cfssl]
+# 配置文件
+ConfigFile = "./configs/cfssl_config.json"
+
+# 存储配置
+[Storage]
+# 存储类型(目前支持的存储类型：ipfs/web3.storage)
+Type = "web3.storage"
+
+# ipfs 存储
+[Ipfs]
+# 连接地址
+Host = "127.0.0.1"
+# 连接端口
+Port = 5001
+
+# Web3Storage 存储
+[Web3Storage]
+# Api Token
+Token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDU4MUJkZEVGNTA3MDlmZjIzQzEwN0Q5YUU2NEVlMjc5M0IyMzk3NWMiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2NTY2NDc2MDM2MjUsIm5hbWUiOiJjbG91ZHNsaXQifQ.7iUZuCDn1SNn7CxuR_kdAWf9_PfpuJlqPmy7ZdB2x9U"
+# data Encrypt key
+EncryptKey = "12345678"
+# Request timeout (unit/second)
+Timeout = 10
+# Request failed retries
+RetryCount = 100
+
+[Log]
+# 日志级别(1:fatal 2:error,3:warn,4:info,5:debug,6:trace)
+Level = 4
+# 日志格式（支持输出格式：text/json）
+Format = "text"
+# 日志输出(支持：stdout/stderr/file)
+Output = "stdout"
+# 指定日志输出的文件路径
+OutputFile = "data/app.log"
+# 是否启用日志钩子
+EnableHook = false
+# 写入钩子的日志级别
+HookLevels = ["info", "warn", "error"]
+# 日志钩子(支持：redis)
+Hook = "redis"
+# 写入钩子的最大工作线程数量
+HookMaxThread = 1
+# 写入钩子的最大缓冲区数量
+HookMaxBuffer = 512
+# 日志轮询数量
+RotationCount = 20
+# 日志轮询时间周期
+RotationTime = 24
+
+[LogRedisHook]
+Addr = "127.0.0.1:6379"
+Key = "log_key"
+
