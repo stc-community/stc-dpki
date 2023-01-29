@@ -24,9 +24,9 @@ MaxReqLoggerLength = 1024
 # 合约配置
 [Contract]
 # 合约地址
-Address = ""
+Address = "0x3C8908df906B9724B51d03B67b53A733239A51c8"
 # RPC 地址
-RpcUrl = "https://wallaby.node.glif.io/rpc/v0"
+RpcUrl = "https://api.hyperspace.node.glif.io/rpc/v1"
 # 账户私钥-用于签名请求
 PrivateKey = ""
 

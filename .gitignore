@@ -23,3 +23,5 @@ bin
 
 cert.crt
 cert.key
+
+node_modules

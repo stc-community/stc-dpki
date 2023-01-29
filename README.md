@@ -33,7 +33,7 @@ $ make
 ## Deploy contract
 Deploy contracts through blockchain RPC addresses and account keys
 ```
-$ bin/dpki deploy -u https://wallaby.node.glif.io/rpc/v0 -k <private key>
+$ bin/dpki deploy -u https://api.hyperspace.node.glif.io/rpc/v1 -k <private key>
 ```
 ## Configuration
 Obtain the deployed contract address, modify the contract information in the configuration file, and other necessary information
@@ -43,7 +43,7 @@ Obtain the deployed contract address, modify the contract information in the con
 # Contract address
 Address = "<contract address>"
 # RPC Address
-RpcUrl = "https://wallaby.node.glif.io/rpc/v0"
+RpcUrl = "https://api.hyperspace.node.glif.io/rpc/v1"
 # Account private key - used for signing requests
 PrivateKey = "<private key>"
 ```
