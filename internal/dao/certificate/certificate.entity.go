@@ -3,8 +3,8 @@ package certificate
 import (
 	"time"
 
-	"github.com/stc-community/fvm-dpki/internal/schema"
-	"github.com/stc-community/fvm-dpki/pkg/util/structure"
+	"github.com/stc-community/stc-fvm-dpki/internal/schema"
+	"github.com/stc-community/stc-fvm-dpki/pkg/util/structure"
 )
 
 type SchemaCertificate schema.Certificate

@@ -5,11 +5,11 @@ import (
 
 	"github.com/flowshield/cfssl/ocsp"
 	"github.com/gin-gonic/gin"
-	"github.com/stc-community/fvm-dpki/internal/api"
-	"github.com/stc-community/fvm-dpki/internal/middleware"
+	"github.com/stc-community/stc-fvm-dpki/internal/api"
+	"github.com/stc-community/stc-fvm-dpki/internal/middleware"
 
-	"github.com/stc-community/fvm-dpki/internal/config"
-	"github.com/stc-community/fvm-dpki/internal/router"
+	"github.com/stc-community/stc-fvm-dpki/internal/config"
+	"github.com/stc-community/stc-fvm-dpki/internal/router"
 )
 
 func InitGinEngine(r router.IRouter) *gin.Engine {

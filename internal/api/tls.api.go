@@ -5,9 +5,9 @@ import (
 	"github.com/flowshield/cfssl/auth"
 	"github.com/gin-gonic/gin"
 	"github.com/google/wire"
-	"github.com/stc-community/fvm-dpki/internal/ginx"
-	"github.com/stc-community/fvm-dpki/internal/schema"
-	"github.com/stc-community/fvm-dpki/internal/service"
+	"github.com/stc-community/stc-fvm-dpki/internal/ginx"
+	"github.com/stc-community/stc-fvm-dpki/internal/schema"
+	"github.com/stc-community/stc-fvm-dpki/internal/service"
 )
 
 var TlsSet = wire.NewSet(wire.Struct(new(TlsAPI), "*"))

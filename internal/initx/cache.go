@@ -4,7 +4,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/stc-community/fvm-dpki/pkg/memorycacher"
+	"github.com/stc-community/stc-fvm-dpki/pkg/memorycacher"
 )
 
 func InitOcspCache() *memorycacher.Cache {

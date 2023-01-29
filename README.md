@@ -1,26 +1,18 @@
 <p align="center">
-<img src="https://user-images.githubusercontent.com/52234994/165200623-c60e956b-5805-4088-bf58-f97ebd8ae8b4.png" 
+<img src="https://user-images.githubusercontent.com/52234994/215312990-066258c1-1864-4d13-ae69-492f76e6e401.png" 
     width="30%" border="0" alt="CA">
 </p>
 
 # FVM-DPKI
-一种基于区块链结构的 DPKI 系统的跨域身份认证架构，它将在线身份的控制权返回到他们所属的实体，使用智能合约来管理数字证书的生命周期，使用用户
-自行生成的证书来减轻传统 CA 证书管理繁琐的操作和管理负担，以实现轻量级的认证架构，避免复杂的组织和管理，从而可以实现更加便捷高效的跨域信息共享
-通过这样做，DPKI 解决了许多困扰传统公钥基础设施的可用性和安全性挑战。
+A cross-domain identity authentication architecture of DPKI system based on blockchain structure, which returns the control of online identities to their entities, uses smart contracts to manage the life cycle of digital certificates, and uses user-generated certificates to reduce the cumbersome operation and management burden of traditional CA certificate management, so as to achieve lightweight authentication architecture and avoid complex organization and management, Thus, more convenient and efficient cross-domain information sharing can be achieved. By doing so, DPKI has solved many usability and security challenges that have plagued traditional public key infrastructure.
 
-DPKI 在 PKI 生命周期的每个阶段都有优势，它使在线身份的自主控制成为可能，并提供简单创建更强大的 SSL 证书，
-在使用中，它可以帮助实体最终由于将公钥管理降级为安全去中心化，进行了加密数据存储。
+DPKI has advantages at every stage of the PKI life cycle. It makes the autonomous control of online identity possible, and provides a simple and more powerful SSL certificate. In use, it can help entities finally store encrypted data by degrading public key management to security decentralization.
 
 # 系统架构
-在此DPKI认证架构中，系统架构由六个主要实体组成：用户、颁发者、验证者、星际文件系统（IPFS）节点、区块链网络和服务提供商，该系统以多个发行方节点为主要区块链节点，组成去中心化网络。 
-
+In this DPKI authentication architecture, the system architecture is composed of six main entities: users, issuers, verifiers, interstellar file system (IPFS) nodes, blockchain networks and service providers. The system takes multiple issuer nodes as the main blockchain nodes, forming a decentralized network.
 ![image](https://user-images.githubusercontent.com/52234994/215308087-de3a4043-6269-4517-a5aa-7847c10e05d9.png)
 
-用户将身份信息提交给颁发者进行认证，颁发者对信息进行校验，将其所属的CA智能合约地址作为用户自生成证书的颁发者。
-然后发行者生成可验证的证书凭据（VC）并将其存储在该智能合约中，以方便验证者快速验证信息的真实性。
-使用区块链智能合约旨在提高证书生命周期（即颁发、凭证管理和验证）的自动化程度。
-区块链确保系统没有单点故障、更高的可扩展性、更高的问责制和可靠性。
-验证者可以直接从IPFS地址中提取证书，从区块链中提取VC来验证证书的真实性，可以减少验证者与颁发者之间的交互，有利于提高验证效率。
+The user submits the identity information to the issuer for authentication. The issuer verifies the information and takes the CA smart contract address to which it belongs as the issuer of the user's self-generated certificate. Then the issuer generates verifiable certificate credentials (VC) and stores them in the smart contract to facilitate the verifier to quickly verify the authenticity of the information. The use of blockchain smart contracts aims to improve the degree of automation of certificate lifecycle (i.e. issuance, certificate management and verification). Blockchain ensures that the system has no single point of failure, higher scalability, higher accountability and reliability. The verifier can extract the certificate directly from the IPFS address, and extract VC from the blockchain to verify the authenticity of the certificate, which can reduce the interaction between the verifier and the issuer, and is conducive to improving the verification efficiency.
 
 
 # Quick Start
@@ -35,6 +27,7 @@ Deploy contracts through blockchain RPC addresses and account keys
 ```
 $ bin/dpki deploy -u https://api.hyperspace.node.glif.io/rpc/v1 -k <private key>
 ```
+
 ## Configuration
 Obtain the deployed contract address, modify the contract information in the configuration file, and other necessary information
 ```toml
@@ -56,4 +49,4 @@ $ bin/dpki tls -c configs/config.toml
 ## DPKI SDK Demo
 Support decentralized certificate application, certificate online status query, certificate chain verification
 
-[Demo](https://github.com/stc-community/fvm-dpki-casdk/tree/main/examples)
+[Demo](https://github.com/stc-community/stc-fvm-dpki-casdk/tree/main/examples)

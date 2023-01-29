@@ -1,7 +1,7 @@
 package internal
 
 import (
-	"github.com/stc-community/fvm-dpki/internal/router"
+	"github.com/stc-community/stc-fvm-dpki/internal/router"
 	"github.com/gin-gonic/gin"
 	"github.com/google/wire"
 	"net/http"

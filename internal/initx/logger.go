@@ -6,10 +6,10 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/stc-community/fvm-dpki/internal/config"
-	"github.com/stc-community/fvm-dpki/pkg/logger"
-	loggerhook "github.com/stc-community/fvm-dpki/pkg/logger/hook"
-	loggerredishook "github.com/stc-community/fvm-dpki/pkg/logger/hook/redis"
+	"github.com/stc-community/stc-fvm-dpki/internal/config"
+	"github.com/stc-community/stc-fvm-dpki/pkg/logger"
+	loggerhook "github.com/stc-community/stc-fvm-dpki/pkg/logger/hook"
+	loggerredishook "github.com/stc-community/stc-fvm-dpki/pkg/logger/hook/redis"
 )
 
 // InitLogger initialize the log module

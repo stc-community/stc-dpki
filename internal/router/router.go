@@ -4,7 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/google/wire"
 
-	"github.com/stc-community/fvm-dpki/internal/api"
+	"github.com/stc-community/stc-fvm-dpki/internal/api"
 )
 
 var _ IRouter = (*Router)(nil)

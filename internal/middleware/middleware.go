@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/stc-community/fvm-dpki/internal/ginx"
-	"github.com/stc-community/fvm-dpki/pkg/errors"
+	"github.com/stc-community/stc-fvm-dpki/internal/ginx"
+	"github.com/stc-community/stc-fvm-dpki/pkg/errors"
 	"github.com/gin-gonic/gin"
 )
 

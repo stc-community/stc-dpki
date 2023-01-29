@@ -12,7 +12,7 @@ import (
 	"github.com/flowshield/cfssl/ocsp"
 	"github.com/flowshield/cfssl/signer"
 	"github.com/flowshield/cfssl/signer/local"
-	"github.com/stc-community/fvm-dpki/internal/config"
+	"github.com/stc-community/stc-fvm-dpki/internal/config"
 )
 
 // InitCert 初始化加载证书

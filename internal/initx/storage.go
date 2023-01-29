@@ -1,11 +1,11 @@
 package initx
 
 import (
-	"github.com/stc-community/fvm-dpki/internal/config"
-	"github.com/stc-community/fvm-dpki/pkg/errors"
-	"github.com/stc-community/fvm-dpki/pkg/storage"
-	"github.com/stc-community/fvm-dpki/pkg/storage/ipfs"
-	web3_storage "github.com/stc-community/fvm-dpki/pkg/storage/web3-storage"
+	"github.com/stc-community/stc-fvm-dpki/internal/config"
+	"github.com/stc-community/stc-fvm-dpki/pkg/errors"
+	"github.com/stc-community/stc-fvm-dpki/pkg/storage"
+	"github.com/stc-community/stc-fvm-dpki/pkg/storage/ipfs"
+	web3_storage "github.com/stc-community/stc-fvm-dpki/pkg/storage/web3-storage"
 )
 
 // InitStorage 初始化存储引擎

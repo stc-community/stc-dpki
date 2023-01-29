@@ -7,13 +7,13 @@ package internal
 
 import (
 	"context"
-	"github.com/stc-community/fvm-dpki/internal/service"
+	"github.com/stc-community/stc-fvm-dpki/internal/service"
 	"github.com/google/wire"
 
-	"github.com/stc-community/fvm-dpki/internal/api"
-	"github.com/stc-community/fvm-dpki/internal/dao"
-	"github.com/stc-community/fvm-dpki/internal/initx"
-	"github.com/stc-community/fvm-dpki/internal/router"
+	"github.com/stc-community/stc-fvm-dpki/internal/api"
+	"github.com/stc-community/stc-fvm-dpki/internal/dao"
+	"github.com/stc-community/stc-fvm-dpki/internal/initx"
+	"github.com/stc-community/stc-fvm-dpki/internal/router"
 )
 
 func BuildInjector(ctx context.Context) (*Injector, func(), error) {

@@ -1,4 +1,4 @@
-module github.com/stc-community/fvm-dpki
+module github.com/stc-community/stc-fvm-dpki
 
 go 1.17
 

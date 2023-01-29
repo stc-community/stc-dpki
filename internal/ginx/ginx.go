@@ -9,10 +9,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 
-	"github.com/stc-community/fvm-dpki/internal/schema"
-	"github.com/stc-community/fvm-dpki/pkg/errors"
-	"github.com/stc-community/fvm-dpki/pkg/logger"
-	"github.com/stc-community/fvm-dpki/pkg/util/json"
+	"github.com/stc-community/stc-fvm-dpki/internal/schema"
+	"github.com/stc-community/stc-fvm-dpki/pkg/errors"
+	"github.com/stc-community/stc-fvm-dpki/pkg/logger"
+	"github.com/stc-community/stc-fvm-dpki/pkg/util/json"
 )
 
 const (

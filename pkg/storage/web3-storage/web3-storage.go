@@ -3,7 +3,7 @@ package web3_storage
 import (
 	"context"
 	"fmt"
-	"github.com/stc-community/fvm-dpki/pkg/errors"
+	"github.com/stc-community/stc-fvm-dpki/pkg/errors"
 	"io"
 	"io/fs"
 	"io/ioutil"
@@ -12,7 +12,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/stc-community/fvm-dpki/internal/config"
+	"github.com/stc-community/stc-fvm-dpki/internal/config"
 
 	"github.com/ipfs/go-cid"
 	"github.com/web3-storage/go-w3s-client"
