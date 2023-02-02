@@ -24,7 +24,7 @@ MaxReqLoggerLength = 1024
 # Contract configuration
 [Contract]
 # Contract address
-Address = ""
+Address = "0x7bFb4c993F851690B253e51327ABCD7f045cd477"
 # RPC Address
 RpcUrl = "https://api.hyperspace.node.glif.io/rpc/v1"
 # Account private key - used for signing requests
