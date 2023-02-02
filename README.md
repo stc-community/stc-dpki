@@ -49,4 +49,4 @@ $ bin/dpki tls -c configs/config.toml
 ## DPKI SDK Demo
 Support decentralized certificate application, certificate online status query, certificate chain verification
 
-[Demo](https://github.com/stc-community/stc-dpki-casdk/tree/main/examples)
+[Demo](https://github.com/stc-community/fvm-dpki-casdk/tree/main/test)

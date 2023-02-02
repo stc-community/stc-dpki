@@ -26,7 +26,7 @@ func main() {
 	}
 	err := app.Run(os.Args)
 	if err != nil {
-		logger.WithContext(ctx).Errorf(err.Error())
+		logger.WithContext(logger.NewStackContext(ctx, err)).Errorf(err.Error())
 	}
 }
 
