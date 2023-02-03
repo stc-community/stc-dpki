@@ -23,10 +23,27 @@ $ make
 ```
 
 ## Deploy contract
-Deploy contracts through blockchain RPC addresses and account keys
+
 ```
-$ bin/dpki deploy -u https://api.hyperspace.node.glif.io/rpc/v1 -k <private key>
+cd contract
+yarn install
 ```
+Add your private key as an environment variable by running this command:
+```
+export PRIVATE_KEY='abcdef'
+```
+You can also add private key using .env file. Next we get the deployer address
+```
+yarn hardhat get-address
+```
+Go to the [Hyperspace testnet faucet](https://hyperspace.yoga/#faucet), and paste in the Ethereum address from the previous step. This will send some hyperspace testnet FIL to the account.
+
+Wait for the hyperspace testnet FIL to be sent, then deploy the contract.
+
+```
+yarn hardhat deploy
+```
+This will compile all the contracts in the contracts folder and deploy them to the Hyperspace test network automatically!
 
 ## Configuration
 Obtain the deployed contract address, modify the contract information in the configuration file, and other necessary information
